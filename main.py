@@ -5,7 +5,7 @@ import os
 
 
 app = Flask(__name__)
-tts = TTS('tts_models/en/ljspeech/tacotron2-DDC_ph')
+tts = TTS('tts_models/en/ljspeech/fast_pitch')
 tts.to('cuda')
 gpt = mistral_ai()
 
